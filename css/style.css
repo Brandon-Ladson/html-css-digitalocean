@@ -21,6 +21,14 @@ img{
   height: auto;
 }
 
+#nav-section , #jumbo , #second-section , #fourth-section , #fifth-section , #sixth-section , #seventh-section , footer{
+  padding: 0 10%;
+}
+
+#first-section , #third-section{
+  padding: 0 12%;
+}
+
 /* regole di debug */
 [class*="col-"]{
   min-height: 100px;
@@ -45,7 +53,6 @@ main{
 section{
   /* debug */
   background-color: orange;
-  padding: 50px 10%;
   border: 1px solid black;
 }
 
