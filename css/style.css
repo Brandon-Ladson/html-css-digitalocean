@@ -46,12 +46,21 @@ p{
   margin-bottom: 0;
 }
 
+.table{
+  margin-bottom: 0;
+}
+
 #nav-section , #jumbo , #second-section , #fourth-section , #fifth-section , #sixth-section , #seventh-section , footer{
   padding: 0 10%;
 }
 
 #first-section , #third-section{
   padding: 0 12%;
+}
+
+#first-section , #second-section , #third-section , #fourth-section , #fifth-section , #sixth-section , #seventh-section , footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .carousel-control.right {
@@ -62,15 +71,15 @@ p{
 }
 
 /* regole di debug */
-[class*="col-"]{
+/* [class*="col-"]{
   background-color: lightgreen;
   border: 1px solid black;
-}
+} */
 
-[class*="col-"] > .row > [class*="col-"]{
+/* [class*="col-"] > .row > [class*="col-"]{
   background-color: pink;
   border: 1px solid black;
-}
+} */
 
 /* regole intestazione */
 header{
@@ -97,33 +106,102 @@ header .navbar{
   z-index: 900;
 }
 
-/* regole jumbotron */
-#jumbo{
-  padding-top: 50px;
+.navbar-header {
+  max-width:15%;
 }
 
+#nav-section .navbar-brand{
+  padding-top: 12px;
+  padding-bottom: 10px;
+}
+
+#nav-section .navbar-brand > img{
+  width: 80%;
+}
+
+#nav-section .navbar-right button{
+  color: #006aff;
+  border: 1px solid #006aff;
+}
+
+/* regole jumbotron */
+#jumbo{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-image: url("../img/home.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+/* regole contenuto sinistro */
+#jumbo .ms_left-content h1{
+  margin-bottom: 10px;
+}
+
+/* regole contenuto destro */
 #jumbo .ms_right-content button img{
   height: 20px;
+}
+
+#jumbo .ms_right-content{
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#jumbo .ms_right-content .ms_text{
+  margin-top: 10px;
 }
 
 /* regole corpo della pagina */
 main{
   /* debug */
-  background-color: grey;
+
 }
 
 section{
   /* debug */
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
 /* regole prima sezione */
+#first-section{
+  background-color: #f3f5f9;
+  text-align: center;
+}
+
+/* contenuto superiore */
+#first-section .ms_top-content .ms_text{
+  margin-bottom: 20px;
+}
+
+/* contenuto inferiore */
+#first-section .ms_bottom-content .ms_text{
+  margin-top: 20px;
+}
 
 /* regole seconda sezione */
+#second-section{
+  
+}
+
+/* contenuto superiore */
+#second-section .ms_top-content{
+  text-align: center;
+}
+
+#second-section .ms_top-content p{
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
 
 /* regole terza sezione */
 #third-section{
   text-align: center;
+  background-color: #f3f5f9;
 }
 
 #third-section #carousel-example-generic{
@@ -135,8 +213,15 @@ section{
 /* regola quarta sezione */
 
 /* regole quinta sezione */
+#fifth-section{
+  background-image: linear-gradient( #0047c5, #00209a);
+}
 
 /* regole sesta sezione */
+#sixth-section{
+  background-color: #f3f5f9;
+}
+
 #sixth-section #carousel-example-generic{
   width: 50%;
   margin-left: auto;
@@ -146,12 +231,13 @@ section{
 /* regole settima sezione */
 #seventh-section{
   text-align: center;
+  background-image: linear-gradient( #0047c5, #00209a);
 }
 
 /* regole footer */
 footer{
   /* debug */
-  background-color: lightblue;
+  background-color: #031c4e;
 }
 
 footer .ms_content ul li{
