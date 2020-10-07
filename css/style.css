@@ -54,15 +54,20 @@ p{
   padding: 0 12%;
 }
 
+.carousel-control.right {
+  background: none;
+}
+.carousel-control.left {
+  background: none;
+}
+
 /* regole di debug */
 [class*="col-"]{
-  min-height: 100px;
   background-color: lightgreen;
   border: 1px solid black;
 }
 
 [class*="col-"] > .row > [class*="col-"]{
-  min-height: 100px;
   background-color: pink;
   border: 1px solid black;
 }
@@ -74,7 +79,29 @@ header{
   background-color: yellow;
 }
 
+header .navbar{
+  border: none;
+  margin-bottom: 0;
+}
+
+#nav-section{
+  height: 50px;
+  background-color: #fff;
+  position: fixed;
+  z-index: 900;
+  width: 100%;
+}
+
+#nav-section .navbar-default{
+  background-color: #fff;
+  z-index: 900;
+}
+
 /* regole jumbotron */
+#jumbo{
+  padding-top: 50px;
+}
+
 #jumbo .ms_right-content button img{
   height: 20px;
 }
@@ -82,7 +109,6 @@ header{
 /* regole corpo della pagina */
 main{
   /* debug */
-  min-height: 800px;
   background-color: grey;
 }
 
