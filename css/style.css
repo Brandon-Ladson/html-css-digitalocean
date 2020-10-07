@@ -21,6 +21,21 @@ img{
   height: auto;
 }
 
+h1{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h3{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #nav-section , #jumbo , #second-section , #fourth-section , #fifth-section , #sixth-section , #seventh-section , footer{
   padding: 0 10%;
 }
@@ -49,6 +64,11 @@ header{
   background-color: yellow;
 }
 
+/* regole jumbotron */
+#jumbo .ms_right-content button img{
+  height: 15px;
+}
+
 /* regole corpo della pagina */
 main{
   /* debug */
@@ -60,6 +80,8 @@ section{
   /* debug */
   border: 1px solid black;
 }
+
+/* regole prima sezione */
 
 
 /* regole footer */
