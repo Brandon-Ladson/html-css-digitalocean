@@ -21,8 +21,38 @@ img{
   height: auto;
 }
 
+/* regole di debug */
+[class*="col-"]{
+  min-height: 100px;
+  background-color: lightgreen;
+  border: 1px solid black;
+}
+
 /* regole intestazione */
+header{
+  /* debug */
+  min-height: 200px;
+  background-color: yellow;
+}
 
 /* regole corpo della pagina */
+main{
+  /* debug */
+  min-height: 800px;
+  background-color: pink;
+}
+
+section{
+  /* debug */
+  background-color: orange;
+  padding: 50px 10%;
+  border: 1px solid black;
+}
+
 
 /* regole footer */
+footer{
+  /* debug */
+  min-height: 200px;
+  background-color: lightblue;
+}
