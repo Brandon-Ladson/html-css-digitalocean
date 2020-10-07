@@ -125,6 +125,13 @@ section{
 /* regole footer */
 footer{
   /* debug */
-  min-height: 200px;
   background-color: lightblue;
+}
+
+footer .ms_content ul li{
+  display: inline-block;
+}
+
+footer .ms_content .ms_text a{
+  display: block;
 }
