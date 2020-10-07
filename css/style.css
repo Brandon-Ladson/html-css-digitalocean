@@ -76,7 +76,7 @@ header{
 
 /* regole jumbotron */
 #jumbo .ms_right-content button img{
-  height: 15px;
+  height: 20px;
 }
 
 /* regole corpo della pagina */
@@ -92,6 +92,19 @@ section{
 }
 
 /* regole prima sezione */
+
+/* regole seconda sezione */
+
+/* regole terza sezione */
+#third-section{
+  text-align: center;
+}
+
+#third-section #carousel-example-generic{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 
 /* regole footer */
