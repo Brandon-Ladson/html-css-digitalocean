@@ -101,11 +101,23 @@ section{
 }
 
 #third-section #carousel-example-generic{
-  width: 80%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
+/* regola quarta sezione */
+
+/* regole quinta sezione */
+
+/* regole sesta sezione */
+#sixth-section #carousel-example-generic{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* regole settima sezione */
 
 /* regole footer */
 footer{
