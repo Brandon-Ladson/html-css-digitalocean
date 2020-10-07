@@ -36,6 +36,12 @@ img{
   border: 1px solid black;
 }
 
+[class*="col-"] > .row > [class*="col-"]{
+  min-height: 100px;
+  background-color: pink;
+  border: 1px solid black;
+}
+
 /* regole intestazione */
 header{
   /* debug */
