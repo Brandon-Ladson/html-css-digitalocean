@@ -16,6 +16,10 @@
   padding-right: 0;
 }
 
+body{
+  font-size: 13px;
+}
+
 /* sovrascrittura framework */
 h1 , h2 , h3 , h4 , p{
   margin-top: 0;
@@ -44,6 +48,13 @@ a{
 #first-section , #second-section , #third-section , #fourth-section , #fifth-section , #sixth-section , #seventh-section , footer{
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+/* regole carosel */
+#carousel-example-generic{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-control.right {
@@ -184,12 +195,6 @@ header .navbar{
 }
 
 /* contenuto inferiore */
-#third-section #carousel-example-generic{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
   max-width: 70%;
   margin: 0 auto;
@@ -262,11 +267,7 @@ header .navbar{
 }
 
 /* contenuto inferiore */
-#sixth-section #carousel-example-generic{
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 
 /* regole settima sezione */
 #seventh-section{
@@ -333,11 +334,40 @@ footer .ms_content a{
     padding: 50px 5%;
   }
 
-  /* regole prima sezione */
+  /* regole jumbotron */
   #jumbo h1{
     margin-top: 50px;
   }
 
+  #jumbo p{
+    margin-bottom: 20px;
+  }
+
+  /* regole seconda sezione */
+  #second-section .ms_left-content{
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  /* regole quarta sezione */
+  #fourth-section .ms_bottom-content{
+    margin-bottom: 20px;
+  }
+
+  /* regole quinta sezione */
+  #fifth-section .ms_bottom-content{
+    margin-bottom: 40px;
+  }
+
+  /* regole footer */
+  footer .ms_content{
+    margin-bottom: 20px;
+  }
+}
+
+/* regole per tablet */
+@media (min-width: 769px){
+  /* regole jumbotron */
   #jumbo p{
     margin-bottom: 20px;
   }
