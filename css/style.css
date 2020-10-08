@@ -195,11 +195,6 @@ header .navbar{
 }
 
 /* contenuto inferiore */
-.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-  max-width: 70%;
-  margin: 0 auto;
-}
-
 .carousel-caption h4{
   color: #000;
   text-shadow: none;
@@ -267,7 +262,18 @@ header .navbar{
 }
 
 /* contenuto inferiore */
+#sixth-section .carousel-caption p , .ms_text{
+  color: #000;
+  text-shadow: none;
+}
 
+#sixth-section .carousel-caption h4{
+  margin: 10px 0;
+}
+
+#sixth-section .carousel-caption a{
+  text-shadow: none;
+}
 
 /* regole settima sezione */
 #seventh-section{
