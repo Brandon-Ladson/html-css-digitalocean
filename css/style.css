@@ -16,11 +16,6 @@
   padding-right: 0;
 }
 
-img{
-  max-width: 100%;
-  height: auto;
-}
-
 /* sovrascrittura framework */
 h1 , h2 , h3 , h4 , p{
   margin-top: 0;
@@ -77,17 +72,14 @@ header .navbar{
   z-index: 900;
 }
 
-.navbar-header {
-  max-width:15%;
-}
-
 #nav-section .navbar-brand{
-  padding-top: 12px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 #nav-section .navbar-brand > img{
-  width: 80%;
+  height: 20px;
+  text-align: center;
 }
 
 #nav-section .navbar-right button{
@@ -320,11 +312,41 @@ footer .ms_content a{
 
 /* regole per smartphone */
 @media (max-width: 768px){
-  #nav-section , #jumbo , #first-section , #second-section , #fourth-section , #fifth-section , #seventh-section , footer{
+  #jumbo , #first-section , #second-section , #fourth-section , #fifth-section , #seventh-section , footer{
     padding: 50px 1%;
   }
 
   #third-section , #sixth-section{
     padding: 50px 5%;
+  }
+
+  /* regole prima sezione */
+  #jumbo h1{
+    margin-top: 50px;
+  }
+
+  #jumbo p{
+    margin-bottom: 20px;
+  }
+
+  /* regole seconda sezione */
+  #second-section .ms_left-content{
+    margin-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  /* regole quarta sezione */
+  #fourth-section .ms_bottom-content{
+    margin-bottom: 20px;
+  }
+
+  /* regole quinta sezione */
+  #fifth-section .ms_bottom-content{
+    margin-bottom: 40px;
+  }
+
+  /* regole footer */
+  footer .ms_content{
+    margin-bottom: 20px;
   }
 }
