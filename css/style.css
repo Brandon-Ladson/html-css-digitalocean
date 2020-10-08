@@ -306,12 +306,13 @@ footer .ms_content .ms_text:first-of-type{
 }
 
 #grey-ms_text{
-  color: #808080;
+  color: #666666;
   margin-bottom: 10px;
 }
 
 footer .ms_content ul li{
   display: inline-block;
+  margin-right: 10px;
 }
 
 footer .ms_content .ms_text a{
@@ -319,7 +320,7 @@ footer .ms_content .ms_text a{
 }
 
 footer .ms_content [class*="fab"]{
-  color: #808080;
+  color: #a0a0a0;
 }
 
 footer .ms_content{
