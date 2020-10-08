@@ -190,6 +190,19 @@ header .navbar{
   margin-right: auto;
 }
 
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.carousel-caption h4{
+  color: #000;
+  text-shadow: none;
+}
+
+.carousel-indicators li{
+  border: 1px solid #006aff;
+}
 /* regola quarta sezione */
 
 /* contenuto superiore */
