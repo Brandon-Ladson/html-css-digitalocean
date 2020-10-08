@@ -82,12 +82,6 @@ p{
 } */
 
 /* regole intestazione */
-header{
-  /* debug */
-  min-height: 200px;
-  background-color: yellow;
-}
-
 header .navbar{
   border: none;
   margin-bottom: 0;
@@ -185,7 +179,7 @@ section{
 
 /* regole seconda sezione */
 #second-section{
-  
+
 }
 
 /* contenuto superiore */
@@ -198,12 +192,28 @@ section{
   margin-bottom: 50px;
 }
 
+/* contenuto inferiore */
+#second-section .ms_right-content{
+  margin-bottom: 20px;
+}
+
+#second-section .ms_right-content h4{
+  margin: 10px 0;
+}
+
 /* regole terza sezione */
 #third-section{
   text-align: center;
   background-color: #f3f5f9;
 }
 
+/* contenuto superiore */
+#third-section .ms_top-content p{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* contenuto inferiore */
 #third-section #carousel-example-generic{
   width: 50%;
   margin-left: auto;
@@ -212,9 +222,37 @@ section{
 
 /* regola quarta sezione */
 
+/* contenuto superiore */
+#fourth-section .ms_top-content{
+  text-align: center;
+}
+
+#fourth-section .ms_top-content h2{
+  margin-bottom: 30px;
+}
+
+/* contenuto inferiore */
+#fourth-section .ms_bottom-content h4{
+  margin: 10px 0;
+}
+
+#fourth-section .ms_bottom-content p{
+  margin-bottom: 10px;
+}
+
 /* regole quinta sezione */
 #fifth-section{
   background-image: linear-gradient( #0047c5, #00209a);
+  color: #fff;
+}
+
+/* contenuto superiore */
+#fifth-section .ms_top-content{
+  text-align: center;
+}
+
+#fifth-section .ms_top-content h2{
+  margin-bottom: 20px;
 }
 
 /* regole sesta sezione */
@@ -222,6 +260,16 @@ section{
   background-color: #f3f5f9;
 }
 
+/* contenuto superiore */
+#sixth-section .ms_top-content{
+  text-align: center;
+}
+
+#sixth-section .ms_top-content h2{
+  margin-bottom: 100px;
+}
+
+/* contenuto inferiore */
 #sixth-section #carousel-example-generic{
   width: 50%;
   margin-left: auto;
@@ -234,10 +282,32 @@ section{
   background-image: linear-gradient( #0047c5, #00209a);
 }
 
+#seventh-section h2{
+  color: #fff;
+}
+
+#seventh-section button{
+  margin-top: 20px;
+  color: #006aff;
+}
+
 /* regole footer */
 footer{
   /* debug */
   background-color: #031c4e;
+}
+
+footer .ms_content .ms_text{
+  color: #cecece;
+}
+
+footer .ms_content .ms_text:first-of-type{
+  margin-top: 10px;
+}
+
+#grey-ms_text{
+  color: #808080;
+  margin-bottom: 10px;
 }
 
 footer .ms_content ul li{
@@ -246,4 +316,16 @@ footer .ms_content ul li{
 
 footer .ms_content .ms_text a{
   display: block;
+}
+
+footer .ms_content [class*="fab"]{
+  color: #808080;
+}
+
+footer .ms_content{
+  color: #fff;
+}
+
+footer .ms_content a{
+  color: #808080;
 }
