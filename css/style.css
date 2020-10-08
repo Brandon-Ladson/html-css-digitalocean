@@ -21,43 +21,31 @@ img{
   height: auto;
 }
 
-h1{
+/* sovrascrittura framework */
+h1 , h2 , h3 , h4 , p{
   margin-top: 0;
   margin-bottom: 0;
 }
 
-h2{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-h3{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-h4{
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-p{
-  margin-top: 0;
-  margin-bottom: 0;
+a{
+  color: #006aff;
 }
 
 .table{
   margin-bottom: 0;
 }
 
+/* regole padding laterale delle sezioni*/
 #nav-section , #jumbo , #second-section , #fourth-section , #fifth-section , #sixth-section , #seventh-section , footer{
   padding: 0 10%;
 }
 
+/* regale padding laterale prima e terza sezione */
 #first-section , #third-section{
   padding: 0 12%;
 }
 
+/* regole padding superiore e inferire delle sezioni */
 #first-section , #second-section , #third-section , #fourth-section , #fifth-section , #sixth-section , #seventh-section , footer{
   padding-top: 50px;
   padding-bottom: 50px;
@@ -69,17 +57,6 @@ p{
 .carousel-control.left {
   background: none;
 }
-
-/* regole di debug */
-/* [class*="col-"]{
-  background-color: lightgreen;
-  border: 1px solid black;
-} */
-
-/* [class*="col-"] > .row > [class*="col-"]{
-  background-color: pink;
-  border: 1px solid black;
-} */
 
 /* regole intestazione */
 header .navbar{
@@ -134,10 +111,6 @@ header .navbar{
 }
 
 /* regole contenuto destro */
-#jumbo .ms_right-content button img{
-  height: 20px;
-}
-
 #jumbo .ms_right-content{
   background-color: #fff;
   color: #000;
@@ -146,20 +119,15 @@ header .navbar{
   border-radius: 5px;
 }
 
+#jumbo .ms_right-content button img{
+  height: 20px;
+}
+
 #jumbo .ms_right-content .ms_text{
   margin-top: 10px;
 }
 
 /* regole corpo della pagina */
-main{
-  /* debug */
-
-}
-
-section{
-  /* debug */
-  /* border: 1px solid black; */
-}
 
 /* regole prima sezione */
 #first-section{
@@ -178,9 +146,6 @@ section{
 }
 
 /* regole seconda sezione */
-#second-section{
-
-}
 
 /* contenuto superiore */
 #second-section .ms_top-content{
@@ -193,6 +158,19 @@ section{
 }
 
 /* contenuto inferiore */
+#second-section .ms_left-content{
+  margin-left: 50px;
+}
+
+#second-section .ms_left-content .ms_text{
+  padding: 10px;
+  border-left: 1px solid #000;
+}
+
+#second-section .ms_left-content .ms_text a{
+  color: #000;
+}
+
 #second-section .ms_right-content{
   margin-bottom: 20px;
 }
@@ -255,6 +233,15 @@ section{
   margin-bottom: 20px;
 }
 
+/* contenuto inferiore */
+#fifth-section .ms_bottom-content{
+  margin: 0 10px;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td ,{
+  border-top: 0;
+  border-bottom: 1px solid #fff;
+}
 /* regole sesta sezione */
 #sixth-section{
   background-color: #f3f5f9;
@@ -329,4 +316,15 @@ footer .ms_content{
 
 footer .ms_content a{
   color: #808080;
+}
+
+/* regole per smartphone */
+@media (max-width: 768px){
+  #nav-section , #jumbo , #first-section , #second-section , #fourth-section , #fifth-section , #seventh-section , footer{
+    padding: 50px 1%;
+  }
+
+  #third-section , #sixth-section{
+    padding: 50px 5%;
+  }
 }
