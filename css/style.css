@@ -131,6 +131,18 @@ header .navbar{
 }
 
 /* regole corpo della pagina */
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+p{
+  font-size: 2rem;
+}
+
+.ms_text{
+  font-size: 2rem;
+}
 
 /* regole prima sezione */
 #first-section{
